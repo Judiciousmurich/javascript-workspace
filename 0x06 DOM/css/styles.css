@@ -1,0 +1,28 @@
+.title-class{
+   color: red;
+    font-size: 80px;
+
+}
+
+html, body{
+    overflow-x: hidden;
+}
+/* .hidden{
+    display: none;
+} */
+
+
+
+.dummy-class{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    border: 5px solid magenta;
+    background-color: black;
+    transform: translateX(200%);
+    transition: all 20s ease;
+    
+}
+/* .movie-title{ */
+    /* color: purple; */
+/* } */

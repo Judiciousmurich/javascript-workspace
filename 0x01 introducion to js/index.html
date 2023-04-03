@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <body>
+    <h2>what can javascript do?</h2>
+    
+    <p id="content">javascript can change content of HTML content.</p>
+    <button type="button" onclick="document.getElementById('content').innerHTML='Hello javascript!'">Change Value!</button>
+
+    <p id="demo">javascript can change the style of HTML element.</p>
+    <button type="button" onclick=" document.getElementById('demo').style.fontSize='35px'">Click me!</button>
+
+    <p id="display">javascript can hide HTML elements.</p>
+    <button type="button"onclick="document.getElementById('display').style.display='none'">Click me!</button>
+    <p>javascript can show hidden HTML elements</p>   
+    <p id="show" style="display:none">Hello javascript.</p>
+    <button type="button" onclick="document.getElementById('show').style.display='block'">Click me!</button>
+
+    <h2>javascript in body</h2>
+    <p id="input"></p>
+    <script>
+        document.getElementById('input').innerHTML="javascript day one";
+    </script>
+</body>
+</html>
